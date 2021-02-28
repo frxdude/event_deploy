@@ -1,0 +1,8 @@
+package com.golomt.event.Repository;
+
+import com.golomt.event.Model.Sms;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SmsRepository extends JpaRepository<Sms, String> {
+
+}
